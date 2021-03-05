@@ -1,0 +1,13 @@
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\obj\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).csprojAssemblyReference.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\obj\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).AssemblyInfoInputs.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\obj\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).AssemblyInfo.cs
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\obj\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).csproj.CoreCompileInputs.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\bin\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).exe
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\bin\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).deps.json
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\bin\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).runtimeconfig.json
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\bin\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).runtimeconfig.dev.json
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\bin\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).dll
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\bin\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).pdb
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\obj\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).dll
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\obj\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).pdb
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\IngetSpeciellt(copypaste)\IngetSpeciellt(copypaste)\obj\Debug\netcoreapp3.1\IngetSpeciellt(copypaste).genruntimeconfig.cache

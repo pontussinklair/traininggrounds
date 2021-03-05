@@ -1,0 +1,13 @@
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\bin\Debug\netcoreapp3.1\Övningar.exe
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\bin\Debug\netcoreapp3.1\Övningar.deps.json
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\bin\Debug\netcoreapp3.1\Övningar.runtimeconfig.json
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\bin\Debug\netcoreapp3.1\Övningar.runtimeconfig.dev.json
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\bin\Debug\netcoreapp3.1\Övningar.dll
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\bin\Debug\netcoreapp3.1\Övningar.pdb
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\obj\Debug\netcoreapp3.1\Övningar.csprojAssemblyReference.cache
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\obj\Debug\netcoreapp3.1\Övningar.AssemblyInfoInputs.cache
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\obj\Debug\netcoreapp3.1\Övningar.AssemblyInfo.cs
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\obj\Debug\netcoreapp3.1\Övningar.csproj.CoreCompileInputs.cache
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\obj\Debug\netcoreapp3.1\Övningar.dll
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\obj\Debug\netcoreapp3.1\Övningar.pdb
+C:\Users\deltagare\source\repos\pontussinklair\traininggrounds\TestingTesting\Övningar\Övningar\obj\Debug\netcoreapp3.1\Övningar.genruntimeconfig.cache

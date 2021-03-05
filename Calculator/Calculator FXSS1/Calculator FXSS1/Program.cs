@@ -2,144 +2,134 @@
 
 namespace Calculator_FXSS1
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static double Addition(double num1, double num2)
+        {
+            return num1 + num2;
+        }
+        // exempel Addition([10,20,30])
 
+        public static double Addition(double[] numbers)
+        {
+            double sum = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                sum = sum + numbers[i];
+
+            }
+
+            Console.WriteLine(sum);
+
+            return sum;
+        }
+        public static double Subtraction(double num1, double num2)
+        {
+            return num1 - num2;
+        }
+        public static double Multiplication(double num1, double num2)
+        {
+            return num1 * num2;
+        }
+        public static double Division(double num1, double num2)
+        {
+            if (num2 == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("Not possible to divide with 0");// Skyddar mot division med noll
+                Console.ResetColor();
+            }
+            return num1 / num2;  
+            
+        }
+        public static void Main(string[] args)
         {
 
-
-            {
-                bool backTop = true;
-
-                while (backTop);
-            }
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Hi and welcome to the FXSS1 Mathematical Simulator!");
+            Console.WriteLine(); // Empty line.
             Console.WriteLine("Please press any key to initialize the simulation");
 
             Console.ReadKey(true);    // Wait for input key to continue
+
+            bool keepAlive = true;
+
+
+            while (keepAlive)
             {
-                Console.WriteLine("What simulation would you like to execute?");
-                Console.WriteLine(); // Empty line.
-                Console.WriteLine("A=Addition");
-                Console.WriteLine(); // Empty line.
-                Console.WriteLine("S=Subtraction");
-                Console.WriteLine(); // Empty line.
-                Console.WriteLine("M=Multiplication");
-                Console.WriteLine(); // Empty line.
-                Console.WriteLine("D=Division");
-
-                char UserSelection = Console.ReadKey(true).KeyChar;
-
-                switch (UserSelection)
+                try
                 {
-
-                    // If user enter A
-                    case 'A':
-                    case 'a':
-
-                        Console.Write("Please enter the first number:");
-                        double num1 = Convert.ToDouble(Console.ReadLine());
-                        Console.Write("Please enter the second number:");
-                        double num2 = Convert.ToDouble(Console.ReadLine());
-                        Addition(num1, num2);
-                        break;
-
-                    // If user enter S  
-                    case 'S':
-                    case 's':
-
-                        Console.Write("Please enter the first number:");
-                        num1 = Convert.ToDouble(Console.ReadLine());
-                        Console.Write("Please enter the second number:");
-                        num2 = Convert.ToDouble(Console.ReadLine());
-                        Subtraction(num1, num2);
-                        break;
-
-                    // If user enter M 
-                    case 'M':
-                    case 'm':
-
-                        Console.Write("Please enter the first number:");
-                        num1 = Convert.ToDouble(Console.ReadLine());
-                        Console.Write("Please enter the second number:");
-                        num2 = Convert.ToDouble(Console.ReadLine());
-                        Multiplication(num1, num2);
-                        break;
-
-                    // If user enter D 
-                    case 'D':
-                    case 'd':
-
-                        Console.Write("Please enter the first number:");
-                        num1 = Convert.ToDouble(Console.ReadLine());
-                        Console.Write("Please enter the second number:");
-                        num2 = Convert.ToDouble(Console.ReadLine());
-                        Division(num1, num2);
-                        break;
-
-                    // Om annat än 1, 2, 3 or 4 anges visas felmeddelande
-                    default:
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Warning! You have presented an invalid input");
-                        Console.ResetColor();
-
-                        break;
-                }
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("Would you like to restart the simulation press 'm' or type 'stop' to exit.");
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                    Console.Write("Enter your first number:");
+                    double num1 = Convert.ToDouble(Console.ReadLine());
 
 
-                string input = "m";
+                    Console.WriteLine("What simulation would you like to execute?");
 
 
-                    while (input != "stop")
-                {
-                    input = Console.ReadLine();
-                    Console.WriteLine("> Invalid input" + input.ToUpper());
-                }
+                    Console.WriteLine("/n A=Addition");
 
-                Console.WriteLine("> Goodbye!");
+                    Console.WriteLine("/n S=Subtraction");
+
+                    Console.WriteLine("/n M=Multiplication");
+
+                    Console.WriteLine("/n D=Division");
 
 
+                    char UserSelection = Console.ReadKey(true).KeyChar;
 
-            }
-            static void Addition(double num1, double num2)
-            {
-                Console.WriteLine(num1 + num2);
-            }
-            static void Subtraction(double num1, double num2)
-            {
-                Console.WriteLine(num1 - num2);
-            }
-            static void Multiplication(double num1, double num2)
-            {
-                Console.WriteLine(num1 * num2);
-            }
-            static void Division(double num1, double num2)
-            {
 
-                if (num2 == 0)
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Not possible to divide with 0");
+                    Console.Write("Enter your second number:");
+                    double num2 = Convert.ToDouble(Console.ReadLine());
                     Console.ResetColor();
-                }
+                    switch (UserSelection)
+                    {
+                        case 'a':
+                        case 'A':
+                            Console.WriteLine($"{num1} + {num2} = {Addition(num1,num2)}"); 
+                           /* double[] myArray = { 10, 20, 30, 40 };
+                            Addition(myArray);*/
+                            break;
+                        case 's':
+                        case 'S':
+                            Console.WriteLine($"{num1} - {num2} = {Subtraction(num1, num2)}");
+                            break;
+                        case 'm':
+                        case 'M':
+                            Console.WriteLine($"{num1} * {num2} = {Multiplication(num1, num2)}");
+                            break;
+                        case 'd':
+                        case 'D':
+                            Console.WriteLine($"{num1} / {num2} = {Division(num1, num2)}");
+                            break;
 
-                else
+                        default:
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Warning! You have presented an invalid input");
+                            Console.ResetColor();
+
+                            break;
+                    }
+                }
+                catch (Exception)
                 {
-                    Console.WriteLine(num1 / num2);
+                    Console.WriteLine("Invalid input, please try again?");
+
                 }
-
-
             }
+            // Gives the user a choice
+            Console.WriteLine("Would you like to restart or quit the simulation\n Choose 'q' to quit, any other to continue?");
 
+            if (char.Parse(Console.ReadLine().ToLower()) == 'q')
+            {
+                keepAlive = false;
+            }
         }
-
     }
 
 }
+
+
 
 
 

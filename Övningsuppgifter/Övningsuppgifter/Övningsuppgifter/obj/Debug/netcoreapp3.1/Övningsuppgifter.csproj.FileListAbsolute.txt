@@ -1,0 +1,13 @@
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\obj\Debug\netcoreapp3.1\Övningsuppgifter.csprojAssemblyReference.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\obj\Debug\netcoreapp3.1\Övningsuppgifter.AssemblyInfoInputs.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\obj\Debug\netcoreapp3.1\Övningsuppgifter.AssemblyInfo.cs
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\obj\Debug\netcoreapp3.1\Övningsuppgifter.csproj.CoreCompileInputs.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\bin\Debug\netcoreapp3.1\Övningsuppgifter.exe
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\bin\Debug\netcoreapp3.1\Övningsuppgifter.deps.json
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\bin\Debug\netcoreapp3.1\Övningsuppgifter.runtimeconfig.json
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\bin\Debug\netcoreapp3.1\Övningsuppgifter.runtimeconfig.dev.json
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\bin\Debug\netcoreapp3.1\Övningsuppgifter.dll
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\bin\Debug\netcoreapp3.1\Övningsuppgifter.pdb
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\obj\Debug\netcoreapp3.1\Övningsuppgifter.dll
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\obj\Debug\netcoreapp3.1\Övningsuppgifter.pdb
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\Övningsuppgifter\Övningsuppgifter\Övningsuppgifter\obj\Debug\netcoreapp3.1\Övningsuppgifter.genruntimeconfig.cache

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deltagare\\source\\repos\\pontussinklair\\traininggrounds\\Calculator\\Calculator FXSS1\\Calculator FXSS1\\Calculator FXSS1.csproj",
+      "projectUniqueName": "C:\\Users\\deltagare\\source\\Repositories\\pontussinklair\\traininggrounds\\Calculator\\Calculator FXSS1\\Calculator FXSS1\\Calculator FXSS1.csproj",
       "projectName": "Calculator FXSS1",
-      "projectPath": "C:\\Users\\deltagare\\source\\repos\\pontussinklair\\traininggrounds\\Calculator\\Calculator FXSS1\\Calculator FXSS1\\Calculator FXSS1.csproj",
+      "projectPath": "C:\\Users\\deltagare\\source\\Repositories\\pontussinklair\\traininggrounds\\Calculator\\Calculator FXSS1\\Calculator FXSS1\\Calculator FXSS1.csproj",
       "packagesPath": "C:\\Users\\deltagare\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deltagare\\source\\repos\\pontussinklair\\traininggrounds\\Calculator\\Calculator FXSS1\\Calculator FXSS1\\obj\\",
+      "outputPath": "C:\\Users\\deltagare\\source\\Repositories\\pontussinklair\\traininggrounds\\Calculator\\Calculator FXSS1\\Calculator FXSS1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deltagare\\AppData\\Roaming\\NuGet\\NuGet.Config",
