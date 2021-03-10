@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\deltagare\\.nuget\\packages\\": {}
+    "C:\\Users\\hgusi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deltagare\\source\\Repositories\\pontussinklair\\traininggrounds\\ToDoIt\\ToDoIt\\ToDoIt.csproj",
+      "projectUniqueName": "C:\\Users\\hgusi\\Source\\Repos\\traininggrounds\\ToDoIt\\ToDoIt\\ToDoIt.csproj",
       "projectName": "ToDoIt",
-      "projectPath": "C:\\Users\\deltagare\\source\\Repositories\\pontussinklair\\traininggrounds\\ToDoIt\\ToDoIt\\ToDoIt.csproj",
-      "packagesPath": "C:\\Users\\deltagare\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deltagare\\source\\Repositories\\pontussinklair\\traininggrounds\\ToDoIt\\ToDoIt\\obj\\",
+      "projectPath": "C:\\Users\\hgusi\\Source\\Repos\\traininggrounds\\ToDoIt\\ToDoIt\\ToDoIt.csproj",
+      "packagesPath": "C:\\Users\\hgusi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hgusi\\Source\\Repos\\traininggrounds\\ToDoIt\\ToDoIt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\deltagare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hgusi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

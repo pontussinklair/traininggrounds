@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-namespace ToDoIt.Tests
+namespace ToDoit.Tests
 {
     class PersonSequencerTests
     {

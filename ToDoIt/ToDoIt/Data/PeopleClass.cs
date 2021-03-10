@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ToDoIt.Data
+namespace ToDoit.Data
 {
     class PeopleClass
    

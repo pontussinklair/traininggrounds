@@ -1,0 +1,4 @@
+C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.csprojAssemblyReference.cache
+C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.AssemblyInfoInputs.cache
+C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.AssemblyInfo.cs
+C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.csproj.CoreCompileInputs.cache
