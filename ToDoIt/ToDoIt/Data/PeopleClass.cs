@@ -5,11 +5,11 @@ using System.Text;
 namespace ToDoit.Data
 {
     class PeopleClass
-   
+
     {
 
         private static Person[] person = new Person[0];
-         
+
         public static int Size()
         {
             return person.Length;
@@ -47,3 +47,4 @@ namespace ToDoit.Data
          }*/
         }
     }
+}

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
-using ToDoit.Model;
-using static ToDoIt.Data.ToDoSeqencer;
+using ToDoIt.Data;
+using ToDoIt.Model;
 
-namespace ToDoit.Tests.Data
+namespace ToDoIt.Tests.Data
 {
     public class TodoSeqencersTests
     {

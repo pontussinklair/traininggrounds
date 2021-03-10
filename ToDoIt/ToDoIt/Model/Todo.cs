@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace ToDoIt.Model
 {
     public class Todo
@@ -9,7 +10,7 @@ namespace ToDoIt.Model
         readonly int todoid;
         string description;
         bool done;
-        Personclass assignee;
+        Person assignee;
         
 
         public Todo(int todoId)//constructor
@@ -49,12 +50,13 @@ namespace ToDoIt.Model
             get { return done; }
             set { done = value; }
         }
-        public Personclass Assignee
+        public Person Assignee
         {
             get { return assignee; }
             set { assignee = value; }
 
         }
+              
     }
 }
 

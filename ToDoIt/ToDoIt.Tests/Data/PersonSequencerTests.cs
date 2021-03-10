@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xunit;
+using ToDoIt.Data;
+using ToDoIt.Model;
+
 namespace ToDoit.Tests
 {
-    class PersonSequencerTests
+    public class PersonSequencerTests
     {
 
         [Fact]
