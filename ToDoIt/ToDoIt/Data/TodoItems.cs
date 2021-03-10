@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ToDoit;
+using ToDoIt.Data;
 using ToDoIt.Model;
 
 namespace ToDoIt.Data

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ToDoit.Data
+namespace ToDoIt.Data
 {
-    public class PersonSequencerClass
+    public class PersonSequencer
     {
         private static int personID = 0;
 

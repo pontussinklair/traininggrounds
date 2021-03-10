@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace ToDoIt.Model
-
 {
     public class Person//Fields
     {
         private readonly int personID;
         private string firstName;
         private string lastName;
-
 
         public Person(int personID)// Constructor med en input parameter
         {
