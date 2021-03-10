@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Person.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ToDoIt.Data
 {
-    class PeopleClass
+    public class People
    
     {
-
+        
         private static Person[] person = new Person[0];
          
         public static int Size()
@@ -20,6 +21,8 @@ namespace ToDoIt.Data
         }
         public static Person FindById(int personId)
         {
+            return;//????????
+                }
             /* Person p = person[personId];
              return p;
          }

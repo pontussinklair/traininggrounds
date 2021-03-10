@@ -1,0 +1,4 @@
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\ToDoIt\ToDoIt.Tests\obj\Debug\netcoreapp3.1\ToDoIt.Tests.csprojAssemblyReference.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\ToDoIt\ToDoIt.Tests\obj\Debug\netcoreapp3.1\ToDoIt.Tests.AssemblyInfoInputs.cache
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\ToDoIt\ToDoIt.Tests\obj\Debug\netcoreapp3.1\ToDoIt.Tests.AssemblyInfo.cs
+C:\Users\deltagare\source\Repositories\pontussinklair\traininggrounds\ToDoIt\ToDoIt.Tests\obj\Debug\netcoreapp3.1\ToDoIt.Tests.csproj.CoreCompileInputs.cache

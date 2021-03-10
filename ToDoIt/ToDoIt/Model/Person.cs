@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PersonClass.Model
+namespace ToDoIt.Model
 {
-    public class PersonClass//Fields
+    public class Person//Fields
     {
         private readonly int personID;
         private string firstName;
         private string lastName;
 
 
-        public PersonClass(int personID)// Constructor med en input parameter
+        public Person(int personID)// Constructor med en input parameter
         {
             this.personID = personID;
         }
 
-        public PersonClass(int personID, string firstName, string lastName) : this(personID)//Constructor
+        public Person(int personID, string firstName, string lastName) : this(personID)//Constructor
         {
 
             this.firstName = firstName;
