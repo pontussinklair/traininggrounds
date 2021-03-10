@@ -10,7 +10,6 @@ namespace ToDoIt.Model
         private string firstName;
         private string lastName;
 
-
         public Person(int personID)// Constructor med en input parameter
         {
             this.personID = personID;

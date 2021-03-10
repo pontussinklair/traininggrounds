@@ -1,4 +1,4 @@
-﻿using Person.Model;
+﻿using ToDoIt.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,7 +21,7 @@ namespace ToDoIt.Data
         }
         public static Person FindById(int personId)
         {
-            return;//????????
+            return person;//????????
                 }
             /* Person p = person[personId];
              return p;
