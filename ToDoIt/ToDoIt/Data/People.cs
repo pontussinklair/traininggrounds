@@ -6,23 +6,62 @@ using System.Text;
 namespace ToDoIt.Data
 {
     public class People
-   
+
     {
-        
-        private static Person[] person = new Person[0];
-         
-        public static int Size()
+
+        private static Person[] personList = new Person[0];
+
+        public int Size()
         {
-            return person.Length;
+            return personList.Length;
         }
-        public static Person[] FindAll()
+        public Person[] FindAll()
         {
-            return person;
+            return personList;
         }
-        public static Person FindById(int personId)
+        public Person FindById(int ID)
         {
-            return person;//????????
+            //personList är en kö av person
+            foreach (Person aPersonInTheArray in personList)  //för varje person i kön
+            {
+                if (aPersonInTheArray.PersonID == ID) //om personen har id= personID , returnera personen
+                {
+                    return aPersonInTheArray;
                 }
+
+            }
+            return null;
+        }
+        public Person NewPerson (string firstName, string lastName)
+        {
+            Person = new Person(PersonSequencer.nextPersonID(), firstName, lastName )
+
+            Array.Resize(ref personList, personList.Length + 1);
+            personList[personList.Length-1] = NewPerson
+
+                return Person
+        }
+        /*Lägga till en metod som när ny person som adderas till -
+               Array:en och sedan skickar tillbaka det skapade objektet från PersonSequencer - 
+               för ett unikt ID*/
+
+        public void ClearPerson() 
+        {
+            Array.Clear (personList, 0, personList.Length -1) //Vilken Array, vart ska det börja, vart ska det sluta.
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
             /* Person p = person[personId];
              return p;
          }
