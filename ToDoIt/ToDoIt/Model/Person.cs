@@ -10,14 +10,11 @@ namespace ToDoIt.Model
         private string firstName;
         private string lastName;
 
-        public Person(int personID)// Constructor med en input parameter
+    
+
+        public Person(int personID, string firstName, string lastName)//Constructor
         {
             this.personID = personID;
-        }
-
-        public Person(int personID, string firstName, string lastName) : this(personID)//Constructor
-        {
-
             this.firstName = firstName;
             this.lastName = lastName;
         }
@@ -32,7 +29,11 @@ namespace ToDoIt.Model
 
             set
             {
-                if (!string.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
+                {
+                    firstName = "No firstname";
+                }
+                else
                 {
                     firstName = value;
                 }
@@ -43,7 +44,11 @@ namespace ToDoIt.Model
             get { return lastName; }
             set
             {
-                if (!string.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
+                {
+                    lastName = " No lastname";
+                }
+                else
                 {
                     lastName = value;
                 }

@@ -2,3 +2,12 @@ C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.
 C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.AssemblyInfoInputs.cache
 C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.AssemblyInfo.cs
 C:\Users\hgusi\Source\Repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.csproj.CoreCompileInputs.cache
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\bin\Debug\netcoreapp3.1\ToDoIt.exe
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\bin\Debug\netcoreapp3.1\ToDoIt.deps.json
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\bin\Debug\netcoreapp3.1\ToDoIt.runtimeconfig.json
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\bin\Debug\netcoreapp3.1\ToDoIt.runtimeconfig.dev.json
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\bin\Debug\netcoreapp3.1\ToDoIt.dll
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\bin\Debug\netcoreapp3.1\ToDoIt.pdb
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.dll
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.pdb
+C:\Users\hgusi\source\repos\traininggrounds\ToDoIt\ToDoIt\obj\Debug\netcoreapp3.1\ToDoIt.genruntimeconfig.cache

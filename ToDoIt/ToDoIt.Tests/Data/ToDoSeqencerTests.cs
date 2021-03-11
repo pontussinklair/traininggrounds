@@ -12,6 +12,7 @@ namespace ToDoIt.Tests.Data
         [Fact]
         public void NewIdIsOne()
         {
+            TodoSeqencer.reset();
             //Arrange
 
             //Act

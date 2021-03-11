@@ -13,11 +13,12 @@ namespace ToDoit.Tests
         [Fact]
         public void NewIDIsOne()
         {
+            
             //Arrange
             //TodoSeqencer Idcounter = new TodoSeqencer();
             //Act
             int newid = PersonSequencer.nextPersonID();//Körulle + nästa nummer.
-                                                       //Assert
+            PersonSequencer.reset();                                    //Assert
             Assert.Equal(1, newid);
         }
         [Fact]
