@@ -178,79 +178,10 @@ namespace ToDoIt.Tests.Data
 
             Assert.Equal(expected, result);
         }
+    
+    
         [Fact]
-        public void TodoIsFoundAndReturnByAssigneeID()
-        {
-            string todo_1_description = " run ";
-            string todo_2_description = " work ";
-           
-
-            string person_1_firstname = "Haris";
-            string person_1_lastname = "Gusinac";
-            string person_2_firstname = "Pontus";
-            string person_2_lastname = "Eriksson";
-
-
-            TodoSeqencer.reset();
-            TodoItems todoItems = new TodoItems();
-            People people = new People();
-
-            Person person_1 = people.NewPerson(person_1_firstname, person_1_lastname);
-            Person person_2 = people.NewPerson(person_2_firstname, person_2_lastname);
-
-            Todo todo_1 = todoItems.Newtodo(todo_1_description);
-            todo_1.Assignee = person_1;
-
-            Todo todo_2 = todoItems.Newtodo(todo_2_description);
-            todo_2.Assignee = person_1;
-
-            Todo todo_3 = todoItems.Newtodo(todo_2_description);
-            todo_3.Assignee = person_2;
-
-            Todo[] expected = { todo_1, todo_2 };
-
-            Todo[] result = todoItems.FindByAssignee(1);
-
-            Assert.Equal(expected, result);
-
-        }
-        [Fact]
-        public void ObjectNoAssigneeReturned()
-        {
-            string todo_1_description = " run ";
-            string todo_2_description = " work ";
-            string todo_3_description = " eat";
-
-            string person_1_firstname = "Haris";
-            string person_1_lastname = "Gusinac";
-            string person_2_firstname = "Pontus";
-            string person_2_lastname = "Eriksson";
-
-            TodoSeqencer.reset();
-
-            TodoItems todoItems = new TodoItems();
-            People people = new People();
-
-            Person person_1 = people.NewPerson(person_1_firstname, person_1_lastname);
-            Person person_2 = people.NewPerson(person_2_firstname, person_2_lastname);
-
-            Todo todo_1 = todoItems.Newtodo(todo_1_description);
-            todo_1.Assignee = person_1;
-
-            Todo todo_2 = todoItems.Newtodo(todo_2_description);
-            todo_2.Assignee = person_2;
-
-            Todo todo_3 = todoItems.Newtodo(todo_3_description);
-            todo_3.Assignee = person_2;
-
-            Todo[] expected = { todo_1 };
-
-            Todo[] result = todoItems.FindByAssignee(1);
-
-            Assert.Equal(expected, result);
-        }
-        [Fact]
-        public void DeletfromArray()
+        public void Remove()
         {
             string todo_1_description = " run ";
             string todo_2_description = " work ";
@@ -265,9 +196,82 @@ namespace ToDoIt.Tests.Data
 
             Todo[] result = { todo_1,todo_3 };
 
-            todoItems.RemoveArrayElement(todo_2);
+            todoItems.Remove(todo_2);
 
             Assert.Equal(result, todoItems.FindAll());
+
+        }
+        [Fact]
+        public void FindById()
+        {
+            Todo todo;
+            TodoItems todoItems = new TodoItems();
+            todoItems.Clear();
+            TodoSeqencer.reset();
+
+            todoItems.Newtodo("Run");
+            todoItems.Newtodo("Eat");
+            todoItems.Newtodo("Sleep");
+
+            todo = todoItems.FindById(1);
+            Assert.Equal("Run", todo.Description);
+            Assert.Equal(1, todo.TodoId);
+
+            todo = todoItems.FindById(2);
+            Assert.Equal("Eat", todo.Description);
+            Assert.Equal(2, todo.TodoId);
+
+            todo = todoItems.FindById(3);
+            Assert.Equal("Sleep", todo.Description);
+            Assert.Equal(3, todo.TodoId);
+
+
+        }
+        [Fact]
+        public void FindByAssignee()
+        {
+            TodoItems todoItems = new TodoItems();
+            todoItems.Clear();
+            TodoSeqencer.reset();
+
+            todoItems.Newtodo("Run");
+            todoItems.Newtodo("Eat");
+            todoItems.Newtodo("Sleep");
+            todoItems.Newtodo("work");
+
+            Person person1 = new Person(1, "Haris", "Gusinac");
+            Person person2 = new Person(2, "Pontus", "Eriksson");
+
+            todoItems.FindById(1).Assignee = person1;
+            todoItems.FindById(2).Assignee = person2;
+            todoItems.FindById(4).Assignee = person2;
+
+            Todo[] todoAssigneePerson2 = todoItems.FindByAssignee(person2);
+
+            Assert.Equal(2, todoAssigneePerson2.Length);
+
+        }
+        [Fact]
+        public void FindUnssignedTodoItems()
+        {
+            TodoItems todoItems = new TodoItems();
+            todoItems.Clear();
+            TodoSeqencer.reset();
+
+            todoItems.Newtodo("Run");
+            todoItems.Newtodo("Eat");
+            todoItems.Newtodo("Sleep");
+            todoItems.Newtodo("work");
+
+            Person person1 = new Person(1, "Ulf", "Bengtsson");
+            Person person2 = new Person(1, "Peter", "Svensson");
+
+            todoItems.FindById(2).Assignee = person1;
+            todoItems.FindById(3).Assignee = person2;
+
+            Todo[] unassignedTodo = todoItems.FindUnassignedTodoItems();
+
+            Assert.Equal(2, unassignedTodo.Length);
 
         }
     }

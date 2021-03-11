@@ -78,7 +78,7 @@ namespace ToDoIt.Data
             }
             return assignee;
         }
-        public Todo[] FindByPersonId(Person assignee)
+        public Todo[] FindByAssignee(Person assignee)
         {
             Todo[] assigned = new Todo[0];
             foreach (Todo todo in todoItems)
@@ -106,7 +106,7 @@ namespace ToDoIt.Data
             }
             return unAssigneed;
         }
-        public void RemoveArrayElement (Todo todo)
+        public void Remove (Todo todo)
         {
             int index = 0;
 

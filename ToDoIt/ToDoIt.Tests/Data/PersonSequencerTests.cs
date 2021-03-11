@@ -5,7 +5,7 @@ using Xunit;
 using ToDoIt.Data;
 using ToDoIt.Model;
 
-namespace ToDoit.Tests
+namespace ToDoIt.Tests
 {
     public class PersonSequencerTests
     {
@@ -13,21 +13,24 @@ namespace ToDoit.Tests
         [Fact]
         public void NewIDIsOne()
         {
-            
+
+            PersonSequencer.reset();
             //Arrange
             //TodoSeqencer Idcounter = new TodoSeqencer();
             //Act
             int newid = PersonSequencer.nextPersonID();//Körulle + nästa nummer.
-            PersonSequencer.reset();                                    //Assert
+                                                       //Assert
             Assert.Equal(1, newid);
         }
         [Fact]
         public void IDisTwo()
         {
+            PersonSequencer.reset();
             //Arrange
             //TodoSeqencer Idcounter = new TodoSeqencer();
             //Act
             int newid = PersonSequencer.nextPersonID();
+            
             newid = PersonSequencer.nextPersonID();
             //Assert
             Assert.Equal(2, newid);

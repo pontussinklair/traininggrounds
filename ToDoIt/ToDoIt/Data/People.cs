@@ -1,7 +1,5 @@
-﻿using ToDoIt.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
+using ToDoIt.Model;
 
 namespace ToDoIt.Data
 {
@@ -34,23 +32,54 @@ namespace ToDoIt.Data
         }
         public Person NewPerson(string firstName, string lastName)
         {
-           Person person = new Person(PersonSequencer.nextPersonID(), firstName, lastName);
-         
+            Person person = new Person(PersonSequencer.nextPersonID(), firstName, lastName);
+
             Array.Resize(ref personList, personList.Length + 1);
             personList[personList.Length - 1] = person;
 
-                return person;
+            return person;
         }
-    
+        /*Lägga till en metod som när ny person som adderas till -
+               Array:en och sedan skickar tillbaka det skapade objektet från PersonSequencer - 
+               för ett unikt ID*/
 
-        public void ClearPerson()
+        /*public void ClearPersons()
         {
             Array.Clear(personList, 0, personList.Length - 1); //Vilken Array, vart ska det börja, vart ska det sluta.
-        }
-        public void RemoveArrayElement(Person person)
+        }*/
+
+        public void ClearPersons()
         {
+            personList = new Person[0];
+        }
+
+        /*public void Remove(int personId)
+        {
+            personList = personList.Where(person => person.PersonId != personId).ToArray();
+        }*/
+
+
+        public void RemoveObject(Person person)
+        {
+            int index = 0;
+
+            for (int i = 0; i < personList.Length; i++)
+            {
+                if (personList[i].Equals(person))
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            for (int i = index; i < personList.Length - 1; i++)
+            {
+                personList[i] = personList[i + 1];
+            }
+
+            Array.Resize(ref personList, personList.Length - 1);
 
         }
-     
     }
 }
+
