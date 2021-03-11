@@ -79,29 +79,6 @@ namespace ToDoIt.Data
 
             Array.Resize(ref personList, personList.Length - 1);
 
-            /*public void RemoveObjectFromArray(int ID)
-            {
-                // exempel startarray: [adam],[bertil],[nisse],[stina]
-                // slutarray: [adam],[bertil],[nisse],[stina]
-                // vi ska ta bort nisse fron People , alltså personList
-                //  en variabel för att spara undan nisses index i listan
-                int theArrayIndex=0;
-                // Stega igenom listan för att hitta nisse.
-                for (int i = 0; i < personList.Length; i++)
-                {
-                    //om personList[i] är nisse ska vi spara undan i (indexet) i variabeln theArrayIndex
-                    if (personList[i].PersonID == ID) theArrayIndex = i;// 
-                }
-
-                //skapa en ny array som är ett objekt kortare
-                Person[] tempPersonList = new Person[personList.Length-1];
-                //kopiera personerna som är i listan innan nisse
-                Array.Copy(personList, tempPersonList, theArrayIndex);
-                //kopiera personera EFteR nisse till temporära arrayen
-                Array.Copy(personList, theArrayIndex + 1, tempPersonList, theArrayIndex, personList.Length - (theArrayIndex + 1));
-
-                //lägg tillbaka den nya förkortade arrayen i personList igen.
-               *//* Array.Copy(tempPersonList, personList, tempPersonList.Length);*/
         }
     }
 }

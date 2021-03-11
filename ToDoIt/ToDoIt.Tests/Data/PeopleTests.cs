@@ -30,8 +30,9 @@ namespace ToDoIt.Tests
 
             People personList = new People();
             personList.ClearPersons();
+            PersonSequencer.reset();
 
-                personList.NewPerson("Pelle", "Plätt");
+            personList.NewPerson("Pelle", "Plätt");
                 personList.NewPerson("Kenny", "Starfighter");
                 Person Ebbot = personList.NewPerson("Ebbot", "Lavén");
 
@@ -59,6 +60,7 @@ namespace ToDoIt.Tests
             People personList = new People();
 
             personList.ClearPersons();
+            PersonSequencer.reset();
 
             personList.NewPerson("Pelle", "Plätt");
             personList.NewPerson("Kenny", "Starfighter");
@@ -86,6 +88,7 @@ namespace ToDoIt.Tests
         {
             People personList = new People();
             personList.ClearPersons();
+            PersonSequencer.reset();
 
             personList.NewPerson("Ylva", "Gottfridsdottir");
             personList.NewPerson("Evert", "Taube");
@@ -100,7 +103,7 @@ namespace ToDoIt.Tests
         public void RemoveTest()
         {
             People personList = new People();
-            //personList.ClearPersons();
+           
 
             Person sune = personList.NewPerson("Sune", "Kammamook");
             Person sven = personList.NewPerson("Sven", "Larsson");
@@ -110,7 +113,7 @@ namespace ToDoIt.Tests
             Person[] allPeople = personList.FindAll();
 
             Assert.Contains(sune, allPeople);
-            Assert.Contains(nils, allPeople);//Gå in och ändra som i FindAll
+            Assert.Contains(nils, allPeople);
             Assert.DoesNotContain(sven, allPeople);
         }
         [Fact]
@@ -118,6 +121,7 @@ namespace ToDoIt.Tests
         {
             People personList = new People();
             personList.ClearPersons();
+            PersonSequencer.reset();
             //Arrange
             string person_1_Firstname = "Per";
             string person_1_Lastname = "Holknekt";

@@ -13,6 +13,8 @@ namespace ToDoIt.Tests
         [Fact]
         public void NewIDIsOne()
         {
+            
+            PersonSequencer.reset();
             //Arrange
             //TodoSeqencer Idcounter = new TodoSeqencer();
             //Act
